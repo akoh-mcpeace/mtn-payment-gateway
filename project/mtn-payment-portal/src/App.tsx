@@ -1,10 +1,12 @@
-import ListGroup from "./components/ListGroup";
+import TransactionTable from "./components/TransactionsTable";
 
 function App() {
   return (
-    <div>
-      <ListGroup></ListGroup>
-    </div>
+    <>
+      <div>
+        <TransactionTable />
+      </div>
+    </>
   );
 }
 
